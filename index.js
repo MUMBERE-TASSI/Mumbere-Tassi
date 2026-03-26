@@ -124,23 +124,3 @@ document.addEventListener('DOMContentLoaded', () => {
   changeLanguage(savedLang);
 });
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Mumbere Tassi Dieumerci",
-  "url": "https://mumbere-tassi.github.io/Mumbere-Tassi/",
-  "sameAs": [
-    "https://www.linkedin.com/in/YOUR_LINKEDIN",
-    "https://www.facebook.com/YOUR_FACEBOOK",
-    "https://twitter.com/YOUR_TWITTER"
-  ],
-  "jobTitle": "Electrical & IT Engineer | Preacher | Musician | Leader",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Self-employed / Portfolio"
-  },
-  "image": "https://mumbere-tassi.github.io/Mumbere-Tassi/2022-06-03%2016.00.05.jpg",
-  "description": "Portfolio of Mumbere Tassi Dieumerci, combining engineering, ministry, and music."
-}
-</script>
