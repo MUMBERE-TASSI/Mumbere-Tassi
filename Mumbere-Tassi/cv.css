@@ -1,0 +1,62 @@
+:root {
+  --primary: #00d4ff;
+  --bg: #0f172a;
+  --card-bg: #1e293b;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: var(--bg);
+  color: #cbd5e1;
+  line-height: 1.8;
+}
+
+.navbar {
+  background-color: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(10px);
+}
+
+.profile-header {
+  padding: 120px 0 60px;
+  background: linear-gradient(to bottom, #1e293b, #0f172a);
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.section-title {
+  color: white;
+  font-weight: 700;
+  border-left: 4px solid var(--primary);
+  padding-left: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.cv-item {
+  background: var(--card-bg);
+  padding: 25px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.social-btn {
+  width: 50px; height: 50px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 50%; background: var(--card-bg); color: white;
+  font-size: 1.5rem; transition: 0.3s; margin: 0 10px; text-decoration: none;
+}
+
+.social-btn:hover { background: var(--primary); color: var(--bg); transform: translateY(-5px); }
+
+/* YouTube Brand Color */
+.btn-youtube { color: #ff0000 !important; }
+.btn-youtube:hover { background: #ff0000 !important; color: white !important; }
+
+.skill-tag {
+  background: rgba(0, 212, 255, 0.1);
+  color: var(--primary);
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  margin: 3px;
+  display: inline-block;
+}
